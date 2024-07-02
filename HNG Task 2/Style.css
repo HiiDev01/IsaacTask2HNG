@@ -188,6 +188,7 @@ main{
   line-height: 1.5;
   color: var(--second-color);
   font-family: var(--font-two);
+  margin: 0px 0px 15px 0px;
 }
 .header_intro h2 span{
   position: relative;
@@ -201,6 +202,25 @@ main{
   width: 100%;
   background-color: var(--seven-color);
 }
+.social_link{
+  width: 100%;
+  color: var(--eight-color);
+  display: flex;
+  align-self: center;
+  gap: 15px;
+  padding: 0px 10px;
+}
+.social_link a{
+  color: var(--eight-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.social_link a:hover{
+  color: var(--seven-color);
+  transition: color 0.2s ease-in-out;
+}
+
 .img_con{
   position: relative;
   width: 30%;
